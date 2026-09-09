@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern E-Commerce Store</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+     <script src="project.js"></script>
+
+    <header>
+        <div class="logo">
+            <h1>E-Shop</h1>
+        </div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Categories</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div class="cart-section">
+            🛒 Cart: <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h2>Big Summer Sale</h2>
+        <p>Up to 50% Off on Electronics & Fashion</p>
+        <button>Shop Now</button>
+    </section>
+
+    <section class="search-section">
+        <input type="text" id="searchInput" placeholder="Search Products...">
+    </section>
+
+    <section class="products">
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250" alt="Headphones">
+            <h3>Wireless Headphones</h3>
+            <p>₹1999</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250" alt="Watch">
+            <h3>Smart Watch</h3>
+            <p>₹2999</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250" alt="Shoes">
+            <h3>Sports Shoes</h3>
+            <p>₹1499</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250" alt="Laptop">
+            <h3>Laptop</h3>
+            <p>₹45999</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+
+        <button>Send Message</button>
+    </section>
+
+    <footer>
+        <p>© 2026 E-Shop. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
