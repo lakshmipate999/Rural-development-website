@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rural Development Website">
+    <title>Rural Development Initiative</title>
+    <link rel="stylesheet"href="webstyle.css">
+    </head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rural Development - News and Updates</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    
+
+   <!-- Header Section -->
+    <header>
+       <div class="container">
+            <h1>Rural Development Initiative</h1>
+            <nav>
+                <ul>
+                    <li><a href="web.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="project1.html">Projects</a></li>
+                    <li><a href="project3.html">News & Updates</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are committed to enhancing rural communities through sustainable development initiatives...</p>
+        </div>
+    </section>
+
+    <!-- Our Projects Section -->
+     
+    <section id="projects">
+        <div class="container">
+            <h1>Our Projects</h1>
+            <div class="project-list">
+                <div class="project-item">
+                   <a href="project1.html"> <h3>Project 1: Education and Skill Development</h3></a>
+                    <p>Improving access to quality education and skill in rural communities....</p>
+                </div>
+                <div class="project-item">
+                 <a href="project2.html">  <h3>Project 2: Agricultural Development</h3></a> 
+                    <p>Supporting farmers with modern tools and techniques...</p>
+                </div>
+                <div class="project-item">
+
+                  <a href="project3.html">  <h3>Project 3: Goverment Schemes and Policies</h3></a>
+                    <p>Educating people about rural development programs...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News & Updates Section -->
+     
+    <section id="news">
+        <div class="container">
+            
+            <h2>News & Updates</h2>
+            <marquee direction="up" behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();">
+            <article>
+                <h3>New Development in Rural Education</h3>
+                 </article>
+            <article>
+                <h3>Modern tools and techniques help the farmers</h3>
+                <p>This things help us in rural development...</p>
+            </article>
+        </marquee>
+        </div>
+    </section>
+
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to get involved, feel free to reach out.</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
